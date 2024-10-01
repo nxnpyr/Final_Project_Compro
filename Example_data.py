@@ -1,41 +1,46 @@
-#Create
-def create_records(file):
+import struct, os
+"""
+[category, name, amount, data, balance, price]
+"""
 
-    with open(file, "wb") as file:
-        o_count = 0
-        try :
-            count = int(input("How many record?: "))
-        except ValueError as e:
-            print(f"Error: {e}")
-        except Exception as e:
-            print(f"Error: {e}")
+#Save
+def save_records(file):
+
+    with open(file) as file:
+        pass
 
 #Add
 def add_records(file):
 
-    with open(file, "a") as file:
+    with open(file) as file:
+        pass
+
+#Edit
+def edit_record(file):
+    
+    with open(file) as file:
         pass
 
 #Read
 def read_records(file) ->str:
 
-    with open(file, "r") as file:
+    with open(file) as file:
         pass
 
 #Find
-def find_records(filePath) ->str:
+def find_records(file) ->str:
 
-    with open(file, "r") as file:
+    with open(file) as file:
         pass
 
 #Remove
-def remove_record(filePath):
+def remove_record(file):
     
-    with open(file, "r") as file:
+    with open(file) as file:
         pass
 
 #Delete
-def delete_record(filePath):
+def delete_record(file):
     
-    with open(file, "r") as file:
+    with open(file) as file:
         pass
