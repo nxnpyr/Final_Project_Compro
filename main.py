@@ -17,7 +17,7 @@ def Run():
         else:
             match choice:
                 case "1":
-                    md.save_records(file)
+                    md.create_records(file)
                     runing = False
                 case "2":
                     md.add_records(file)

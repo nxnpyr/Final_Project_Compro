@@ -3,8 +3,8 @@ import struct, os
 [category, name, amount, data, balance, price]
 """
 
-#Save
-def save_records(file):
+#Create
+def create_records(file):
 
     with open(file) as file:
         pass
@@ -17,8 +17,6 @@ def add_records(file):
 
 #Edit
 def edit_record(file):
-    
-    with open(file) as file:
         pass
 
 #Read
@@ -35,12 +33,8 @@ def find_records(file) ->str:
 
 #Remove
 def remove_record(file):
-    
-    with open(file) as file:
         pass
 
 #Delete
 def delete_record(file):
-    
-    with open(file) as file:
         pass
